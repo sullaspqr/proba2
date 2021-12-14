@@ -12,7 +12,7 @@ function App() {
         }).then(function (tartalom) {
             setItems(tartalom);
         });
-    }, []);
+    }, []); 
 
     return React.createElement(
         "div",
